@@ -31,7 +31,25 @@ li {
 }
 
 .logo {
-    height: 80px;
+    height: 70px;
+}
+
+header {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.landing {
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 h1 {
@@ -48,6 +66,12 @@ h3 {
     font-size: 32px;
     color: #00B172;
 }
+
+.green-background {
+    background-color: #00B172;
+    padding: 100px;
+}
+
 h4 {
     font-size: 32px;
 }
